@@ -6,10 +6,10 @@ public class Main {
         Estoque estoque = new Estoque();
 
         while (true) {
-            System.out.println("\n==== Sistema de Controle de Estoque ====");
-            System.out.println("1. Adicionar Produto");
-            System.out.println("2. Atualizar Quantidade de Produto");
-            System.out.println("3. Exibir Estoque");
+            System.out.println("\n==== Sistema de controle de estoque ====");
+            System.out.println("1. Adicionar produto");
+            System.out.println("2. Atualizar Quantidade do produto");
+            System.out.println("3. Exibir estoque");
             System.out.println("4. Sair");
             System.out.print("Escolha uma opção: ");
             int opcao = scanner.nextInt();
